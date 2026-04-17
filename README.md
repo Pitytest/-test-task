@@ -19,11 +19,13 @@ npx playwright install chromium
 ## Настройка
 
 Скопируйте .env.example в .env и заполните своими данными:
+
 cp .env.example .env
 
 ## Запуск
 
 npm test                # headless (без браузера)
+
 npm run test:headed     # с видимым браузером
 
 ## Допущения
